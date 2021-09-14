@@ -13,18 +13,12 @@ export default function Footer() {
         <div className={styles.logo_wrapper}>
           <img src={"/assets/logo.svg"} height={50} width={200}></img>
 
-          <a
-            className={styles.center}
-            href="https://vercel.com/?utm_source=IndiaVaccine&utm_campaign=oss "
-            target="_blank"
-          >
-            <img
-              src="/assets/vercel.svg"
-              width="180px"
-              height="40px"
-              alt="vercel logo"
-            ></img>
-          </a>
+          <a className={styles.center} href="https://vercel.com/?utm_source=IndiaVaccine&utm_campaign=oss " target="_blank"> 
+                     <img src="/assets/vercel.svg"
+                            width="180px"
+                            height="100px"
+                            alt="vercel logo" ></img>
+                        </a> 
         </div>
 
         <div className={styles.footer_social}>
